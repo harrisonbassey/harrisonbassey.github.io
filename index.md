@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Harrison Bassey │ Network-Automation Engineer
-description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│Cisco
+description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│MTN│9Mobile│Huawei│Cisco
 ---
 
 &lt;!-- ---------------  HERO  --------------- --&gt;
@@ -10,23 +10,21 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 # 👋 Hi, I’m **Harrison Bassey**  
 ### I turn **multi-vendor networks** into **self-driving infrastructures** with **Python + Linux + Open-Source**.
 
-&lt;<a href="#contact"&gt;&lt;button class="glow"&gt;Hire Me>&lt;/button&gt;&lt;/a&gt;
-
-&lt;a href="https://github.com/harrison-bassey"&gt;&lt;button class="outline"&gt;GitHub&lt;/a&gt;
-
-&lt;a href="https://linkedin.com/in/harrison-bassey"&gt;&lt;button class="outline"&gt;LinkedIn&lt;/button&gt;&lt;/a&gt;
+&lt;a href="#contact" class="button glow"&gt;Hire Me&lt;/a&gt;
+&lt;a href="https://github.com/harrisonbassey" class="button outline"&gt;GitHub&lt;/a&gt;
+&lt;a href="https://linkedin.com/in/harrisonbassey" class="button outline"&gt;LinkedIn&lt;/a&gt;
 
 &lt;/section&gt;
 
 &lt;!-- ---------------  BADGES  --------------- --&gt;
 &lt;p align="center"&gt;
-  &lt;img src="https://img.shields.io/badge/CCNP-Enterprise-1B273F?logo=cisco" /&gt;
-  &lt;img src="https://img.shields.io/badge/HCIP-Datacom-FF0000?logo=huawei" /&gt;
-  &lt;img src="https://img.shields.io/badge/AWS-SAA-FF9900?logo=amazon-aws" /&gt;
-  &lt;img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python" /&gt;
-  &lt;img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20CentOS-E95420?logo=ubuntu" /&gt;
-  &lt;img src="https://img.shields.io/badge/Docker-2496ED?logo=docker" /&gt;
-  &lt;img src="https://img.shields.io/badge/Ansible-EE0000?logo=ansible" /&gt;
+  &lt;img src="https://img.shields.io/badge/CCNP-Enterprise-1B273F?logo=cisco" loading="lazy" /&gt;
+  &lt;img src="https://img.shields.io/badge/HCIP-Datacom-FF0000?logo=huawei" loading="lazy" /&gt;
+  &lt;img src="https://img.shields.io/badge/AWS-SAA-FF9900?logo=amazon-aws" loading="lazy" /&gt;
+  &lt;img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python" loading="lazy" /&gt;
+  &lt;img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20CentOS-E95420?logo=ubuntu" loading="lazy" /&gt;
+  &lt;img src="https://img.shields.io/badge/Docker-2496ED?logo=docker" loading="lazy" /&gt;
+  &lt;img src="https://img.shields.io/badge/Ansible-EE0000?logo=ansible" loading="lazy" /&gt;
 &lt;/p&gt;
 
 ---
@@ -37,10 +35,10 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 
 | Demo | Stack | One-Click Run |
 |------|-------|---------------|
-| **Mass VLAN Creator** | Netmiko + Jinja2 + CSV | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrison-bassey/netauto-lab/blob/main/mass_vlan.ipynb) |
-| **BGP Peer Checker** | Nornir + TextFSM + Graphviz | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrison-bassey/netauto-lab/blob/main/bgp_peer.ipynb) |
-| **Config Drift Guard** | Oxidized + GitHub Actions + Slack | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrison-bassey/netauto-lab/blob/main/drift_guard.ipynb) |
-| **Dockerised TACACS+** | Ubuntu + Docker-Compose + tac_plus | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrison-bassey/netauto-lab/blob/main/tacacs_docker.ipynb) |
+| **Mass VLAN Creator** | Netmiko + Jinja2 + CSV | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrisonbassey/netauto-lab/blob/main/mass_vlan.ipynb) |
+| **BGP Peer Checker** | Nornir + TextFSM + Graphviz | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrisonbassey/netauto-lab/blob/main/bgp_peer.ipynb) |
+| **Config Drift Guard** | Oxidized + GitHub Actions + Slack | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrisonbassey/netauto-lab/blob/main/drift_guard.ipynb) |
+| **Dockerised TACACS+** | Ubuntu + Docker-Compose + tac_plus | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harrisonbassey/netauto-lab/blob/main/tacacs_docker.ipynb) |
 
 ---
 
@@ -51,9 +49,9 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 | Metric | Number | Tooling |
 |--------|--------|---------|
 | CGNAT throughput | **400 Gbps/site** | `Huawei Eudemon 8000-X8v6 + Python health-poller` |
-| TE tunnels built | **5 000+** | `MPLS-TE + Netmiko + Jinja2` |
+| TE tunnels built | **5 000+** | `MPLS-TE + Nornir + Jinja2` |
 | RSG upgrades (zero downtime) | **30+** | `Ansible + Huawei iMaster NCE` |
-| Managed routers | **1 300+** | `Seamless MPLS + NCE + SNMP` |
+| Managed routers | **1 300+** | `Seamless MPLS + PRTG + SNMP` |
 | Team upskilled (L0→L2) | **12 engineers** | `Internal Python-for-Networkers bootcamp` |
 
 &lt;/div&gt;
@@ -62,7 +60,7 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 
 &lt;!-- ---------------  CODE SNIPPETS  --------------- --&gt;
 ## 🧪 Code Snippets
-*(Click the grey area → copy to clipboard)*
+*(Click grey area → copy to clipboard)*
 
 ```python
 # BGP peer flapping auto-healer
@@ -78,6 +76,10 @@ def heal_flapping(host, peer):
                 d.cli(["clear ip bgp %s soft" % peer])
                 print(f"{dt.datetime.now()}  Soft-reset {peer}")
             time.sleep(30)
+
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">
+
 #!/usr/bin/env bash
 # Quick VXLAN sanity checker
 for vni in $(bridge vni show | awk '{print $2}'); do
@@ -85,24 +87,39 @@ for vni in $(bridge vni show | awk '{print $2}'); do
   bridge fdb show dev vxlan$vni | wc -l
 done
 
-<img width="1012" height="432" alt="image" src="https://github.com/user-attachments/assets/46348852-5140-4e86-81f9-3c8781af6360" />
+<button class="copy" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent)">
 
-| Area           | Technologies                                | Proficiency   |
-| -------------- | ------------------------------------------- | --------------|
-| **Protocols**  | BGP, OSPF, ISIS, MPLS, VXLAN, EVPN          | ★★★★★       |
-| **Automation** | Python, Paramiko, Netmiko, Ansible, Docker  | ★★★★★       |
-| **Cloud**      | AWS VPC, Direct-Connect, S3, IAM            | ★★★☆☆       |
-| **Monitoring** | Huawei iMaster NCE, PRTG, SNMP, Syslog      | ★★★★☆       |
-| **Security**   | Firewalls (Huawei/Cisco), ACL, CGNAT, IPSec | ★★★★☆       |
-| **Linux**      | Ubuntu, CentOS, Bash, Systemd, KVM          | ★★★★★       |
+<!-- ---------------  CAREER MAP  --------------- -->
 
+🗺️ Career Journey
+%%{init: {'theme':'dark'}}%%
+timeline
+  title Harrison Bassey – 9 yrs in Networking
+  2018 : NYSC @ Huawei – IP-RAN optimisation
+  2019 : Datacom Engineer @ Omnicom – Airtel v5→v8 upgrade
+  2021 : Project Delivery @ Lightening – 9Mobile IP-RAN expansion
+  2022 : L3 Lead @ Huawei – MTN Core & CTN
+  2024 : Manager – Networks Dept @ 21st Century Tech
+
+<!-- ---------------  SKILLS MATRIX  --------------- -->
+🧰 Skills Matrix
+
+| Area           | Technologies                                | Proficiency |
+| -------------- | ------------------------------------------- | ----------- |
+| **Protocols**  | BGP, OSPF, ISIS, MPLS, VXLAN, EVPN, HRP/HSRP, Ethernet  | ★★★★★       |
+| **Automation** | Python, Paramiko, Nornir, Netmiko, Ansible, Docker      | ★★★★★       |
+| **Cloud**      | AWS VPC, Direct-Connect, S3, IAM                        | ★★★☆☆       |
+| **Monitoring** | Huawei iMaster NCE, PRTG, SNMP, Syslog                  | ★★★★☆       |
+| **Security**   | Firewalls (Huawei/Cisco), ACL, CGNAT, IPSec             | ★★★★☆       |
+| **Linux**      | Ubuntu, CentOS, Bash, Systemd, KVM                      | ★★★★★       |
 
 <!-- ---------------  BLOG / DEV.TO  --------------- -->
 ✍️ Latest Posts
-(fetched automatically via GitHub Actions every night)
+(auto-updated nightly via GitHub Actions)
 Automating CGNAT Health Checks with Python & PRTG
 Lessons from upgrading 1300 routers without console cables
 Building a TACACS+ container in under 5 minutes
+
 <!-- ---------------  CONTACT  --------------- -->
 <section id="contact">
 📬 Let’s build the next self-driving network together
@@ -113,13 +130,15 @@ Building a TACACS+ container in under 5 minutes
   <button type="submit">Send Message</button>
 </form>
 </section>
+
 <!-- ---------------  FOOTER  --------------- -->
 <footer>
 Made with ❤️ & Markdown.  
 Hosted free on GitHub Pages.  
 <a href="#hero">Back to top ↑</a>
 </footer>
-<!-- ---------------  OPTIONAL CSS  --------------- -->
+
+<!-- ---------------  READABILITY + STYLE TWEAKS  --------------- -->
 <style>
 :root{
   --bg:#0d1117;
@@ -128,16 +147,19 @@ Hosted free on GitHub Pages.
   --border:#30363d;
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
 }
-body{background:var(--bg);color:var(--fg);margin:0;padding:0 1rem;line-height:1.6;}
-h1,h2,h3{color:#58a6ff;}
-a{color:#58a6ff;text-decoration:none;}
-button{padding:.6rem 1.2rem;border-radius:6px;border:1px solid var(--border);background:var(--accent);color:#fff;cursor:pointer;margin:.25rem;}
-button.outline{background:transparent;color:var(--accent);}
-button.glow{box-shadow:0 0 8px var(--accent);}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0;line-height:1.6;}
+h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}
+a{color:#58a6ff;}
+.button,button{padding:.6rem 1.2rem;border-radius:6px;border:1px solid var(--border);background:var(--accent);color:#fff;cursor:pointer;margin:.25rem;display:inline-block;text-align:center;}
+.button.outline,button.outline{background:transparent;color:var(--accent);}
+.button.glow,button.glow{box-shadow:0 0 8px var(--accent);}
 button.copy{font-size:.7rem;padding:.2rem .4rem;margin:0;display:block;margin-top:-1rem;}
-section,footer{margin:3rem auto;max-width:900px;}
+section,footer{margin:3rem auto;max-width:900px;padding:0 1rem;}
 form{display:grid;gap:.75rem;}
 input,textarea{width:100%;padding:.5rem;border:1px solid var(--border);border-radius:6px;background:#161b22;color:var(--fg);}
 textarea{resize:vertical;min-height:120px;}
+pre{overflow-x:auto;}
+@media (prefers-color-scheme:light){
+ :root{--bg:#fff;--fg:#222;--border:#ddd;}
+}
 </style>
-
