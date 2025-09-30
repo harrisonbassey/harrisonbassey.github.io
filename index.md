@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Harrison Bassey │ Network-Automation Engineer
-description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│MTN│9Mobile│Huawei│Cisco
+description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│Cisco
 ---
 
 &lt;!-- ---------------  HERO  --------------- --&gt;
