@@ -49,9 +49,9 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 | Metric | Number | Tooling |
 |--------|--------|---------|
 | CGNAT throughput | **400 Gbps/site** | `Huawei Eudemon 8000-X8v6 + Python health-poller` |
-| TE tunnels built | **5 000+** | `MPLS-TE + Nornir + Jinja2` |
+| TE tunnels built | **5 000+** | `MPLS-TE + Netmiko + Jinja2` |
 | RSG upgrades (zero downtime) | **30+** | `Ansible + Huawei iMaster NCE` |
-| Managed routers | **1 300+** | `Seamless MPLS + PRTG + SNMP` |
+| Managed routers | **1 300+** | `Seamless MPLS + NCE + SNMP` |
 | Team upskilled (L0→L2) | **12 engineers** | `Internal Python-for-Networkers bootcamp` |
 
 &lt;/div&gt;
