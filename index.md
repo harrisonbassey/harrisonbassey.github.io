@@ -6,6 +6,7 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 ---
 
 &lt;!-- ---------------  HERO  --------------- --&gt;
+
 &lt;section id="hero"&gt;
 
 # 👋 Hi, I’m **Harrison Bassey**  
@@ -18,6 +19,7 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 &lt;/section&gt;
 
 &lt;!-- ---------------  BADGES  --------------- --&gt;
+
 &lt;p align="center"&gt;
   &lt;img src="https://img.shields.io/badge/CCNP-Enterprise-1B273F?logo=cisco" loading="lazy" /&gt;
   &lt;img src="https://img.shields.io/badge/HCIP-Datacom-FF0000?logo=huawei" loading="lazy" /&gt;
@@ -31,6 +33,7 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 ---
 
 &lt;!-- ---------------  INTERACTIVE DEMOS  --------------- --&gt;
+
 ## 🚀 Live Network-Automation Demos
 *(All notebooks open directly in Google Colab – zero install)*
 
@@ -44,6 +47,7 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 ---
 
 &lt;!-- ---------------  STATS  --------------- --&gt;
+
 ## 📊 What I’ve automated so far
 &lt;div id="stats" align="center"&gt;
 
@@ -60,6 +64,7 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 ---
 
 &lt;!-- ---------------  CODE SNIPPETS  --------------- --&gt;
+
 ## 🧪 Code Snippets
 *(Click grey area → copy to clipboard)*
 
@@ -101,6 +106,8 @@ timeline
   2021 : Project Delivery @ Lightening – 9Mobile IP-RAN expansion
   2022 : L3 Lead @ Huawei – MTN Core & CTN
   2024 : Manager – Networks Dept @ 21st Century Tech
+
+<img width="1052" height="450" alt="mermaid" src="https://github.com/user-attachments/assets/7eb8b0b2-dc33-4b87-b27d-6adcebd90693" />
 
 <!-- ---------------  SKILLS MATRIX  --------------- -->
 🧰 Skills Matrix
