@@ -10,8 +10,10 @@ description: HCIA│HCIP│CCNP│Python│Linux│Ansible│Docker│Huawei│C
 # 👋 Hi, I’m **Harrison Bassey**  
 ### I turn **multi-vendor networks** into **self-driving infrastructures** with **Python + Linux + Open-Source**.
 
-&lt;a href="#contact"&gt;&lt;button class="glow"&gt;Hire Me&lt;/button&gt;&lt;/a&gt;
+&lt;<a href="#contact"&gt;&lt;button class="glow"&gt;Hire Me>&lt;/button&gt;&lt;/a&gt;
+
 &lt;a href="https://github.com/harrison-bassey"&gt;&lt;button class="outline"&gt;GitHub&lt;/a&gt;
+
 &lt;a href="https://linkedin.com/in/harrison-bassey"&gt;&lt;button class="outline"&gt;LinkedIn&lt;/button&gt;&lt;/a&gt;
 
 &lt;/section&gt;
