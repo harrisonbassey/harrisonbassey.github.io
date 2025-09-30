@@ -146,28 +146,64 @@ Hosted free on GitHub Pages.
 <a href="#hero">Back to top ↑</a>
 </footer>
 
-<!-- ---------------  READABILITY + STYLE TWEAKS  --------------- -->
+<!-- ====== READABILITY & RESPONSIVE FIXES ====== -->
 <style>
 :root{
   --bg:#0d1117;
   --fg:#c9d1d9;
   --accent:#238636;
   --border:#30363d;
+  --radius:8px;
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  scroll-behavior:smooth;
 }
-body{background:var(--bg);color:var(--fg);margin:0;padding:0;line-height:1.6;}
-h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0;line-height:1.65;font-size:1rem;}
+.wrapper{max-width:880px;margin:auto;padding:0 1rem;}
+section,footer{@extend .wrapper;margin:3rem auto;}
+h1{font-size:2.2rem}h2{font-size:1.6rem}h3{font-size:1.25rem}
+h1,h2,h3{line-height:1.2;margin-top:1.5em;margin-bottom:.5em;color:#58a6ff;}
 a{color:#58a6ff;}
-.button,button{padding:.6rem 1.2rem;border-radius:6px;border:1px solid var(--border);background:var(--accent);color:#fff;cursor:pointer;margin:.25rem;display:inline-block;text-align:center;}
+.button,button{
+  padding:.55rem 1.1rem;border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--accent);color:#fff;font-size:.95rem;cursor:pointer;margin:.25rem;
+  display:inline-block;text-align:center;transition:all .2s;
+}
+.button:hover,button:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(35,134,54,.35);}
 .button.outline,button.outline{background:transparent;color:var(--accent);}
-.button.glow,button.glow{box-shadow:0 0 8px var(--accent);}
-button.copy{font-size:.7rem;padding:.2rem .4rem;margin:0;display:block;margin-top:-1rem;}
-section,footer{margin:3rem auto;max-width:900px;padding:0 1rem;}
+pre{overflow-x:auto;background:#161b22;padding:1rem;border-radius:var(--radius);}
+code{font-size:.9em;}
+button.copy{
+  font-size:.7rem;padding:.2rem .4rem;background:var(--border);color:var(--fg);
+  border:none;margin:-.5rem 0 .5rem auto;display:block;
+}
 form{display:grid;gap:.75rem;}
-input,textarea{width:100%;padding:.5rem;border:1px solid var(--border);border-radius:6px;background:#161b22;color:var(--fg);}
+input,textarea{
+  width:100%;padding:.6rem;border:1px solid var(--border);border-radius:var(--radius);
+  background:#161b22;color:var(--fg);font-size:.95rem;
+}
 textarea{resize:vertical;min-height:120px;}
-pre{overflow-x:auto;}
+table{margin:1em 0;width:100%;border-collapse:collapse;}
+th,td{padding:.5rem .75rem;border:1px solid var(--border);}
+th{background:rgba(88,166,255,.1);}
+p,li{max-width:75ch;}          /* keep line length readable */
+img{max-width:100%;height:auto;}
+
+/* ----- light-mode toggle ----- */
 @media (prefers-color-scheme:light){
- :root{--bg:#fff;--fg:#222;--border:#ddd;}
+  :root{
+    --bg:#ffffff;
+    --fg:#222222;
+    --border:#d0d7de;
+    --accent:#1a7f37;
+  }
+  h1,h2,h3{color:#0550ae;}
+  pre{background:#f6f8fa;}
+}
+
+/* ----- small screens ----- */
+@media (max-width:600px){
+  h1{font-size:1.75rem}
+  h2{font-size:1.35rem}
+  .button,button{font-size:.9rem;padding:.45rem .9rem}
 }
 </style>
